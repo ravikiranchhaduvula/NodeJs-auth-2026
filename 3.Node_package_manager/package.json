@@ -1,0 +1,15 @@
+{
+  "name": "3.node_package_manager",
+  "version": "1.0.0",
+  "description": "Node Package Manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Ravi Kiran Chhaduvula",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.23"
+  }
+}
