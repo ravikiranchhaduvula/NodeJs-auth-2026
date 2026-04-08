@@ -1,2 +1,12 @@
 const bufferone = Buffer.alloc(10) // Allocat buffere 10 bytes
 console.log(bufferone)
+const bufferFromString = Buffer.from("Hello")
+console.log(bufferFromString)
+const bufferFromArrayOfIntegers = Buffer.from([1,2,3,4])
+console.log(bufferFromArrayOfIntegers)
+bufferone.write("Ravi")
+console.log("After writing o buffer",bufferone.toString())
+console.log(bufferFromString[0])
+const concatBuffs = Buffer.concat([bufferone, bufferFromString])
+console.log(concatBuffs)
+console.log(concatBuffs.toJSON())
